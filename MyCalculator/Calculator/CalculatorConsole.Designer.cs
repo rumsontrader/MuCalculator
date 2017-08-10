@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.oneButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.displayTextBox = new System.Windows.Forms.TextBox();
             this.twoButton = new System.Windows.Forms.Button();
             this.equalsButton = new System.Windows.Forms.Button();
             this.zeroButton = new System.Windows.Forms.Button();
@@ -59,13 +59,13 @@
             this.oneButton.UseVisualStyleBackColor = true;
             this.oneButton.Click += new System.EventHandler(this.oneButton_Click);
             // 
-            // textBox1
+            // displayTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(27, 18);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(333, 81);
-            this.textBox1.TabIndex = 1;
+            this.displayTextBox.Location = new System.Drawing.Point(27, 18);
+            this.displayTextBox.Multiline = true;
+            this.displayTextBox.Name = "displayTextBox";
+            this.displayTextBox.Size = new System.Drawing.Size(333, 81);
+            this.displayTextBox.TabIndex = 1;
             // 
             // twoButton
             // 
@@ -250,7 +250,7 @@
             this.Controls.Add(this.zeroButton);
             this.Controls.Add(this.equalsButton);
             this.Controls.Add(this.twoButton);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.displayTextBox);
             this.Controls.Add(this.oneButton);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -265,7 +265,7 @@
         #endregion
 
         private System.Windows.Forms.Button oneButton;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox displayTextBox;
         private System.Windows.Forms.Button twoButton;
         private System.Windows.Forms.Button equalsButton;
         private System.Windows.Forms.Button zeroButton;
