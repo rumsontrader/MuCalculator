@@ -38,7 +38,7 @@
             this.clearButton = new System.Windows.Forms.Button();
             this.fourButton = new System.Windows.Forms.Button();
             this.fiveButton = new System.Windows.Forms.Button();
-            this.minuButton = new System.Windows.Forms.Button();
+            this.minusButton = new System.Windows.Forms.Button();
             this.sevenButton = new System.Windows.Forms.Button();
             this.plusButton = new System.Windows.Forms.Button();
             this.sixButton = new System.Windows.Forms.Button();
@@ -147,15 +147,16 @@
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = true;
             // 
-            // minuButton
+            // minusButton
             // 
-            this.minuButton.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minuButton.Location = new System.Drawing.Point(291, 395);
-            this.minuButton.Name = "minuButton";
-            this.minuButton.Size = new System.Drawing.Size(69, 78);
-            this.minuButton.TabIndex = 10;
-            this.minuButton.Text = "-";
-            this.minuButton.UseVisualStyleBackColor = true;
+            this.minusButton.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minusButton.Location = new System.Drawing.Point(291, 395);
+            this.minusButton.Name = "minusButton";
+            this.minusButton.Size = new System.Drawing.Size(69, 78);
+            this.minusButton.TabIndex = 10;
+            this.minusButton.Text = "-";
+            this.minusButton.UseVisualStyleBackColor = true;
+            this.minusButton.Click += new System.EventHandler(this.minusButton_Click);
             // 
             // sevenButton
             // 
@@ -227,6 +228,7 @@
             this.divisionButton.TabIndex = 17;
             this.divisionButton.Text = "/";
             this.divisionButton.UseVisualStyleBackColor = true;
+            this.divisionButton.Click += new System.EventHandler(this.divisionButton_Click);
             // 
             // CalculatorConsoleForm
             // 
@@ -241,7 +243,7 @@
             this.Controls.Add(this.sixButton);
             this.Controls.Add(this.plusButton);
             this.Controls.Add(this.sevenButton);
-            this.Controls.Add(this.minuButton);
+            this.Controls.Add(this.minusButton);
             this.Controls.Add(this.fiveButton);
             this.Controls.Add(this.fourButton);
             this.Controls.Add(this.clearButton);
@@ -274,7 +276,7 @@
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button fourButton;
         private System.Windows.Forms.Button fiveButton;
-        private System.Windows.Forms.Button minuButton;
+        private System.Windows.Forms.Button minusButton;
         private System.Windows.Forms.Button sevenButton;
         private System.Windows.Forms.Button plusButton;
         private System.Windows.Forms.Button sixButton;

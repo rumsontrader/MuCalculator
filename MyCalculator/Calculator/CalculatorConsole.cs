@@ -12,6 +12,31 @@ namespace Calculator
 {
     public partial class CalculatorConsoleForm : Form
     {
+        /// <summary>
+        /// string to hold user input
+        /// </summary>
+        string input = string.Empty;
+
+        /// <summary>
+        /// string to hold the first operand
+        /// </summary>
+        string operand = string.Empty;
+
+        /// <summary>
+        /// string to hold the second operand
+        /// </summary>
+        string operand2 = string.Empty;
+
+        /// <summary>
+        /// char to hold operation
+        /// </summary>
+        char operation;
+
+        /// <summary>
+        /// output to be sent to display
+        /// </summary>
+        double output = 0.0;          
+
         public CalculatorConsoleForm()
         {
             InitializeComponent();
@@ -26,8 +51,13 @@ namespace Calculator
         {
 
         }
+        
+        private void divisionButton_Click(object sender, EventArgs e)
+        {
 
-        private void button1_Click(object sender, EventArgs e)
+        }
+
+        private void minusButton_Click(object sender, EventArgs e)
         {
 
         }
