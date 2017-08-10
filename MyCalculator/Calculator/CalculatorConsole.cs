@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class CalculatorConsole : Form
+    public partial class CalculatorConsoleForm : Form
     {
-        public CalculatorConsole()
+        public CalculatorConsoleForm()
         {
             InitializeComponent();
+        }
+
+        private void CalculatorConsole_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
