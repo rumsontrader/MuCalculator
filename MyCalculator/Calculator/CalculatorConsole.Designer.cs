@@ -167,7 +167,7 @@
             this.sevenButton.TabIndex = 11;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = true;
-            this.sevenButton.Click += new System.EventHandler(this.button1_Click);
+            //this.sevenButton.Click += new System.EventHandler(this.sevenButton_Click);
             // 
             // plusButton
             // 
