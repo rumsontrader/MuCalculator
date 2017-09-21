@@ -57,7 +57,6 @@
             this.oneButton.TabIndex = 0;
             this.oneButton.Text = "1";
             this.oneButton.UseVisualStyleBackColor = true;
-            this.oneButton.Click += new System.EventHandler(this.oneButton_Click);
             // 
             // displayTextBox
             // 
@@ -86,6 +85,7 @@
             this.equalsButton.TabIndex = 3;
             this.equalsButton.Text = "=";
             this.equalsButton.UseVisualStyleBackColor = true;
+            this.equalsButton.Click += new System.EventHandler(this.equalsButton_Click);
             // 
             // zeroButton
             // 
@@ -156,7 +156,6 @@
             this.minusButton.TabIndex = 10;
             this.minusButton.Text = "-";
             this.minusButton.UseVisualStyleBackColor = true;
-            this.minusButton.Click += new System.EventHandler(this.minusButton_Click);
             // 
             // sevenButton
             // 
@@ -167,7 +166,6 @@
             this.sevenButton.TabIndex = 11;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = true;
-            //this.sevenButton.Click += new System.EventHandler(this.sevenButton_Click);
             // 
             // plusButton
             // 
@@ -228,7 +226,6 @@
             this.divisionButton.TabIndex = 17;
             this.divisionButton.Text = "/";
             this.divisionButton.UseVisualStyleBackColor = true;
-            this.divisionButton.Click += new System.EventHandler(this.divisionButton_Click);
             // 
             // CalculatorConsoleForm
             // 
@@ -258,7 +255,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CalculatorConsoleForm";
             this.Text = "Calculator";
-            this.Load += new System.EventHandler(this.CalculatorConsole_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -42,22 +42,7 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void CalculatorConsole_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void oneButton_Click(object sender, EventArgs e)
-        {
-
-        }
-        
-        private void divisionButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void minusButton_Click(object sender, EventArgs e)
+        private void equalsButton_Click(object sender, EventArgs e)
         {
 
         }
